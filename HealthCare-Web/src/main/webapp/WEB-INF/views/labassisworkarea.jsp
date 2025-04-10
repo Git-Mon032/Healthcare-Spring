@@ -50,7 +50,6 @@
                             <div class="col-md-8">
                                <table border="1" width="700">
          <tr>
-         <th align="center">WorkRequest ID </th><th align="center">From </th><th align="center">Message</th><th align="center">Request Date</th>
          <th align="center">Test Type</th><th align="center">Test Status</th><th align="center">Test Message</th>
         
          </tr>
