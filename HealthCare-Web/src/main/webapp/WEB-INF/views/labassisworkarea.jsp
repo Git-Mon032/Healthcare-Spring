@@ -61,7 +61,6 @@
          </tr>	
         </c:forEach> 
          
-        <tr><td colspan = "8" align="center"></td></tr>    
         
 </table>
 			 <div class="form-group">
