@@ -37,7 +37,6 @@
              <form class="form-horizontal" action="logout" method="post">
                 <div class="form-group">
                             <div class="col-md-12 text-center">
-                                <button type="submit" class="btn btn-primary btn-lg">Logout</button>
                             </div>
                         </div>
                         </form>
