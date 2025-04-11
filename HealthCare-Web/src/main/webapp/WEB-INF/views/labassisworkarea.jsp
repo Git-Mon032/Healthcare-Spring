@@ -57,6 +57,7 @@
          <c:forEach items="${wrList}" var="workRequest" varStatus="count">
          <tr><td><input type="radio" name="wID" value="${workRequest.wID}">${workRequest.wID}</td><td>${workRequest.sender}</td><td>${workRequest.message}</td><td>${workRequest.requestDate}</td>
               <td>${workRequest.testType}</td> <td>${workRequest.status}</td>
+               <td><input type="text" name="message" placeholder="Message"></td>
          </tr>	
         </c:forEach> 
          
