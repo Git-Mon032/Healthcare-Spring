@@ -72,7 +72,16 @@
 </div>
 
 <style>
-    
+    .header {
+        color: #36A0FF;
+        font-size: 27px;
+        padding: 10px;
+    }
+
+    .bigicon {
+        font-size: 35px;
+        color: #36A0FF;
+    }
 </style>
 
 <!-- Contact Form - END -->
