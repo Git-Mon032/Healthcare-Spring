@@ -45,13 +45,6 @@ public class NurseController {
 	   		
 	   	}
 	    
-	    @RequestMapping(value="/vitalsignform",method = RequestMethod.GET)
-	    public String sendVitalSign(Model model, @RequestParam String primaryDoctor,@RequestParam String patientID, HttpServletRequest request){
-			model.addAttribute("primaryDoctor", primaryDoctor);
-			model.addAttribute("patientID", patientID);
-			return "vitalsignform";
-		}
-	    
 	    @RequestMapping(value="/sendvitalsigns")
 		public String sendVitalSigns(Model model, HttpServletRequest request){
 			//System.out.println("I am in addMessage");
